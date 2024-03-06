@@ -8,5 +8,5 @@ napíšte nasledovné automatické testy
 4. zadanie viacerých offerov
 
 #### Hinty
-vyberanie zo select elementu [dokumentácia](https://playwright.dev/docs/api/class-locator#locator-select-option)
-vpisanie textu do elementu [dokumentácia](https://playwright.dev/docs/api/class-locator#locator-fil)
+- vyberanie zo select elementu [dokumentácia](https://playwright.dev/docs/api/class-locator#locator-select-option)
+- vpísanie textu do elementu [dokumentácia](https://playwright.dev/docs/api/class-locator#locator-fil)
