@@ -24,7 +24,8 @@ test('debug using breakpoints will allow you to crawl the test explore the retur
 })
 
 //zdebuguj test, zisti kde spadol a preco
-test('Bruce, why do we fall?', async ({ page }) => {
+//nezabudni vymazat anotaciu fixme :)
+test.fixme('Bruce, why do we fall?', async ({ page }) => {
     await page.goto('https://www.kiwi.com/en/?origin=vienna-austria&destination=barcelona-spain')
     await page.locator('[data-test="CookiesPopup-Accept"]').click();
     await page.locator('[data-test="TopNav-RegionalSettingsButton"]').click();
