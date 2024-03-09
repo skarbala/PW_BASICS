@@ -31,7 +31,6 @@ test.fixme('Bruce, why do we fall?', async ({ page }) => {
     await page.locator('[data-test="TopNav-RegionalSettingsButton"]').click();
     await page.locator('[data-test="LanguageSelect"]').selectOption('it');
     await page.locator('[data-test="SubmitRegionalSettingsButtons"]').click();
-    //todo zastav si test a zisti aka je aktualna url a ci je spravna, potom oprav overenie
     expect(page.url()).toContain('/its')
 })
 
