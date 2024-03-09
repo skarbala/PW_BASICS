@@ -3,9 +3,10 @@ import { test, expect } from "@playwright/test";
 test('debug in trace viewer will show you more info about test execution', async ({ page }) => {
     //v trace viewer budes vidiet cely chod testu, ako vyzerala sietova aktivita a 
     //vies si aj vybrat casove rozmedzie a odfiltrovat akcie a sietovu aktivitu
-    await page.goto('http://localhost:8080/#/sortingHat')
-    await page.locator('[data-test="sort-button"]').click()
-    await expect(page.getByRole('heading', { name: 'Let me think...' })).toBeVisible()
+    await page.goto('http://localhost:8080/#/quotes')
+    const addQuoteButton = page.locator('[data-test="get-quote"]')
+    await addQuoteButton.click()
+    await expect(page.locator('ul.quote-list >li')).toBeVisible()
 })
 
 test('debug using breakpoints will allow you to crawl the test explore the returned values', async ({ page }) => {
