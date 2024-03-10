@@ -7,7 +7,7 @@ import { test, expect } from "@playwright/test";
 //4 nastavenie baseURL v ramci test use
 
 test('search button is disabled when no origin selected', async ({ page }) => {
-    await page.goto('/en/')
+    await page.goto('https://www.kiwi.com/en/');
     await page.locator('[data-test="CookiesPopup-Accept"]').click();
     await page.locator('[data-test="PlacePickerInputPlace-close"]').click();
     await expect(page.locator('[data-test="LandingSearchButton"]')).toBeDisabled()
