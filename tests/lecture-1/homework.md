@@ -5,7 +5,7 @@ napíšte nasledovné automatické testy
 1. po zadaní vstupných údajov (fund, investment, years) a kliknutí na make me an offer sa zobrazí ponuka
 2. vytvorenie investmentu po zadaní mena
 3. zamietnutie offeru
-4. zadanie viacerých offerov
+4. zadanie viacerých investícií
 
 #### Hinty
 - vyberanie zo select elementu [dokumentácia](https://playwright.dev/docs/api/class-locator#locator-select-option)
