@@ -1,5 +1,4 @@
 import { test, expect } from "@playwright/test";
-import { config } from "process";
 test.use
 test('get login token and set cookies', async ({ page, context, request }) => {
     const response = await request.post('https://auth.skypicker.com/v1/user.login', {
