@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe('Kiwi.com - home page', () => {
+    test.use({ baseURL: 'https://www.kiwi.com' })
     test.beforeEach(async ({ page, context }) => {
         const constentCookie = {
             name: '__kwc_agreed',
