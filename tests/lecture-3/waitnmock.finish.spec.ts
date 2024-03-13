@@ -5,7 +5,6 @@
 
 import { test, expect } from "@playwright/test";
 import fs from 'node:fs';
-import sortingResponse from '../../sortingResponse.json'
 
 test.describe('Sorting hat', () => {
     test.beforeEach('open the page', async ({ page }) => {
