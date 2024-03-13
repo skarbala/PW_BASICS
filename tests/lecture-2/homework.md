@@ -1,4 +1,4 @@
-# Domáca úloha - 1. Lekcia
+# Domáca úloha - 2. Lekcia
 
 ### Kiwi.com
 napíšte nasledovné automatické testy
