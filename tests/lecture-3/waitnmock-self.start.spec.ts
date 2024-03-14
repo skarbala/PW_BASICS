@@ -1,5 +1,4 @@
 import { test, expect } from "@playwright/test";
-import fs from 'node:fs'
 //BASIC
 test.describe('Kiwi.com', () => {
     test.use({ baseURL: 'https://www.kiwi.com/en' })
